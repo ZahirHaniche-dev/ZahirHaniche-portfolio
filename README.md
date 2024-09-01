@@ -1,13 +1,16 @@
-# Live : https://shivamjaviya.netlify.app/
-# Personal Profile Website
+# REST Countries API with color theme switcher
 
-Welcome to the repository for my personal profile website!
+
+## Welcome! 👋
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Overview
 
 This repository contains the source code and assets for my personal profile website. The website is designed to showcase my skills, projects, and experience in a visually appealing and user-friendly manner.
 
-## Technologies Used
+## Technologies Used 🎨
 
 - **Frontend**: HTML5, CSS3, JavaScript
 - **Frameworks/Libraries**: Bootstrap, jQuery
