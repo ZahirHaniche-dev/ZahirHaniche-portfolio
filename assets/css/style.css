@@ -131,6 +131,8 @@ li { list-style: none; }
 
 img, ion-icon, a, button, time, span { display: block; }
 
+img { border-radius:  25px;}
+
 button {
   font: inherit;
   background: none;
@@ -316,12 +318,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 215px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 500px; }
 
 .sidebar-info {
   position: relative;
@@ -332,7 +334,6 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
   border-radius: 20px;
 }
 
@@ -501,7 +502,7 @@ main {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
-  font-family: "Playwrite PE", cursive;
+  /*font-family: "Playwrite PE", cursive;*/
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -591,7 +592,6 @@ main {
   top: 0;
   left: 0;
   transform: translate(15px, -25px);
-  background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
 }
@@ -753,9 +753,11 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  /*filter: grayscale(1);*/
   transition: var(--transition-1);
 }
+
+.clients-item img{ border-radius: initial;}
 
 .clients-item img:hover { filter: grayscale(0); }
 
@@ -1332,11 +1334,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    max-height: 230px;
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 625px; }
 
   .sidebar-info { gap: 25px; }
 
@@ -1799,14 +1801,32 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   article { min-height: 100%; }
 
-
+  .clients-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* This will allow the items to wrap to the next line if needed */
+  }
+  
+  .clients-item {
+    margin: 10px;
+  }
+  
+  .clients-item img {
+    display: block;
+    max-width: 100px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  
 
   /**
    * MAIN
    */
 
   main {
-    max-width: 1200px;
+    max-width: 1350px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
@@ -1832,13 +1852,13 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
-    padding-top: 60px;
+    padding-top: 25px;
     z-index: 1;
   }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 200px; }
 
   .info-content .name {
     white-space: nowrap;
