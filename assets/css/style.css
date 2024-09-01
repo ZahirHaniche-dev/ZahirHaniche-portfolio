@@ -318,7 +318,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 215px;
+  max-height: 150px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -348,7 +348,7 @@ main {
 .info-content .title {
   color: var(--white-1);
   background: var(--onyx);
-  font-size: var(--fs-8);
+  font-size: 16px;
   font-weight: var(--fw-300);
   width: max-content;
   padding: 3px 12px;
@@ -479,7 +479,7 @@ main {
 .navbar-link {
   color: var(--light-gray);
   font-size: var(--fs-8);
-  padding: 20px 7px;
+  padding: 20px 10px;
   transition: color var(--transition-1);
 }
 
@@ -1077,6 +1077,7 @@ main {
   height: 100%;
   object-fit: cover;
   transition: var(--transition-1);
+  border-radius: initial !important;
 }
 
 .project-post-item > a:hover .project-banner-box img { transform: scale(1.1); }
@@ -1865,7 +1866,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-align: center;
   }
 
-  .info-content .title { margin: auto; }
+  .info-content .title { margin: auto; font-size: 18px; }
 
   .info_more-btn { display: none; }
 
