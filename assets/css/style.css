@@ -546,7 +546,7 @@ main {
 
 .service-icon-box { margin-bottom: 10px; }
 
-.service-icon-box img { margin: auto; }
+.service-icon-box img { margin: auto; border-radius: initial !important;}
 
 .service-content-box { text-align: center; }
 
@@ -1139,6 +1139,7 @@ main {
 }
 
 .mapbox figure { height: 100%; }
+figure { border-radius: initial !important; }
 
 .mapbox iframe {
   width: 100%;
