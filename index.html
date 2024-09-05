@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
     .download-btn {
       display: flex;
       width: 15em;
@@ -30,430 +30,457 @@
 
     }
   </style>
-  <title>Zahir Haniche's Portfolio</title>
+    <title>Zahir Haniche's Portfolio</title>
 
-  <link rel="shortcut icon" href="./zahir.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./zahir.jpg" type="image/x-icon">
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet">
+  </head>
 
-<body bgcolor="black">
+  <body bgcolor="black">
 
-  <!--
+    <!--
     - #MAIN
   -->
 
-  <main>
+    <main>
 
-    <!--
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info">
+        <div class="sidebar-info">
 
-        <figure class="avatar-box">
-          <img src="./zahir.jpg" alt="Zahir Haniche" width="80">
-        </figure>
+          <figure class="avatar-box">
+            <img src="./zahir.jpg" alt="Zahir Haniche" width="80">
+          </figure>
 
+          <div class="info-content">
+            <h1 class="name" title="Zahir Haniche">Zahir Haniche</h1>
 
-        <div class="info-content">
-          <h1 class="name" title="Zahir Haniche">Zahir Haniche</h1>
+            <p class="title">Software Developer</p>
+          </div>
 
-          <p class="title">Software Developer</p>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Information</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Information</span>
+        <div class="sidebar-info_more">
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <div class="separator"></div>
 
-      </div>
+          <ul class="contacts-list">
 
-      <div class="sidebar-info_more">
+            <li class="contact-item">
 
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:javiyashivam70@gmail.com" class="contact-link">haniche.zahir@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+91 9909870870" class="contact-link">+33 6 62 02 85 52</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="12-01-2003">1994</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Paris, France</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/zahirhaniche/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-
-
-          <li class="social-item">
-            <a href="https://github.com/ZahirHaniche-dev" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item" style="display: none;">
-            <button class="navbar-link" data-nav-link></button>
-          </li> 
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Project</button>
-          </li>
-
-
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p class="service-item-text">
-            Hello, I'm Zahir Haniche. I'm a problem solver and I enjoy building better web experiences.
-          </p>
-
-          <p>
-            I am currently employed in France at Inetum, where I have been working for over 8 years as a Software Developer. I have expertise in the Liferay platform and in web development, utilizing technologies such as Angular, Next.js, React.js, and others.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
+                <a href="mailto:javiyashivam70@gmail.com"
+                  class="contact-link">haniche.zahir@gmail.com</a>
               </div>
 
             </li>
 
-            <li class="service-item">
+            <li class="contact-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
+                <a href="tel:+91 9909870870" class="contact-link">+33 6 62 02 85
+                  52</a>
               </div>
 
             </li>
 
-            <li class="service-item">
+            <li class="contact-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Responsive Web Applications</h4>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
 
-                <p class="service-item-text">
-                  Creating the most modern and high-quality web applications with a professional approach.
-                </p>
+                <time datetime="12-01-2003">1994</time>
               </div>
-
-              
 
             </li>
-          
-           <li class="service-item">
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-quote.svg" alt="camera icon" width="40">
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
               </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Project Management</h4>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-                <p class="service-item-text">
-                  As a certified Scrum Master, I manage teams to successfully deliver all client projects.
-                </p>
+                <address>Paris, France</address>
               </div>
 
             </li>
 
           </ul>
 
-        </section>
+          <div class="separator"></div>
 
+          <ul class="social-list">
 
-        <!--
-          - testimonials
-        -->
-
-       <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/louis.jpg" alt="Louis MARAIS" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Louis MARAIS</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Zahir has a proven talent for management. He is kind, motivating, and empathetic. I couldn't have asked for a better mentor: his sense of teamwork and his commitment to people are evident, making him a competent and unique professional.
-                  </p>
-                </div>
-
-              </div>
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/zahirhaniche/"
+                class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/jawaher.jpg" alt="Jawaher BOUALLEGUI" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jawaher BOUALLEGUI</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I worked with Zahir on a large-scale project that he joined midway through its development. His ability to quickly and smoothly ramp up was impressive, and despite the increasing demands, Zahir consistently delivered high-quality work with a smile and a calming sense of humor.
-                  </p>
-                </div>
-
-              </div>
+            <li class="social-item">
+              <a href="https://github.com/ZahirHaniche-dev" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
             </li>
 
-        <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/youssef.jpg" alt="Youssef RAIS" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Youssef RAIS</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    I'm pleased to write this recommendation for Zahir Haniche, with whom I had the privilege of working as a Lead Software Developer Consultant at Inetum. During our time together, I witnessed Zahir's exceptional software development expertise. As our team leader, he consistently demonstrated an impressive blend of technical skills, creativity, and professionalism.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-         <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/nabil.jpg" alt="Nabil TALAOUBRID" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nabil TALAOUBRID</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Having had the pleasure of studying with Zahir, I can only recommend his qualities. I remember Zahir for his great human qualities, as well as his seriousness and determination, which make him a reliable and efficient person. He will undoubtedly be a valuable asset to any team.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-        </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div> 
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  
-                </p>
-              </div>
-
-            </div>
-
-          </section>
+          </ul>
 
         </div>
 
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
 
         <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item" style="display: none;">
+              <button class="navbar-link" data-nav-link></button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Project</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about  active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p class="service-item-text">
+              Hello, I'm Zahir Haniche. I'm a problem solver and I enjoy
+              building better web experiences.
+            </p>
+
+            <p>
+              I am currently employed in France at Inetum, where I have been
+              working for over 8 years as a Software Developer. I have expertise
+              in the Liferay platform and in web development, utilizing
+              technologies such as Angular, Next.js, React.js, and others.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg"
+                    alt="Web development icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-app.svg" alt="mobile app icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Responsive Web
+                    Applications</h4>
+
+                  <p class="service-item-text">
+                    Creating the most modern and high-quality web applications
+                    with a professional approach.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-quote.svg" alt="camera icon"
+                    width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Project Management</h4>
+
+                  <p class="service-item-text">
+                    As a certified Scrum Master, I manage teams to successfully
+                    deliver all client projects.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/louis.jpg" alt="Louis MARAIS"
+                      width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title"
+                    data-testimonials-title>Louis MARAIS</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Zahir has a proven talent for management. He is kind,
+                      motivating, and empathetic. I couldn't have asked for a
+                      better mentor: his sense of teamwork and his commitment to
+                      people are evident, making him a competent and unique
+                      professional.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/jawaher.jpg"
+                      alt="Jawaher BOUALLEGUI" width="60"
+                      data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title"
+                    data-testimonials-title>Jawaher BOUALLEGUI</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I worked with Zahir on a large-scale project that he
+                      joined midway through its development. His ability to
+                      quickly and smoothly ramp up was impressive, and despite
+                      the increasing demands, Zahir consistently delivered
+                      high-quality work with a smile and a calming sense of
+                      humor.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/youssef.jpg" alt="Youssef RAIS"
+                      width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title"
+                    data-testimonials-title>Youssef RAIS</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I'm pleased to write this recommendation for Zahir
+                      Haniche, with whom I had the privilege of working as a
+                      Lead Software Developer Consultant at Inetum. During our
+                      time together, I witnessed Zahir's exceptional software
+                      development expertise. As our team leader, he consistently
+                      demonstrated an impressive blend of technical skills,
+                      creativity, and professionalism.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+
+                  <figure class="testimonials-avatar-box">
+                    <img src="./assets/images/nabil.jpg" alt="Nabil TALAOUBRID"
+                      width="60" data-testimonials-avatar>
+                  </figure>
+
+                  <h4 class="h4 testimonials-item-title"
+                    data-testimonials-title>Nabil TALAOUBRID</h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Having had the pleasure of studying with Zahir, I can only
+                      recommend his qualities. I remember Zahir for his great
+                      human qualities, as well as his seriousness and
+                      determination, which make him a reliable and efficient
+                      person. He will undoubtedly be a valuable asset to any
+                      team.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt width="80"
+                    data-modal-img>
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+
+              <div class="modal-content">
+
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+
+                  </p>
+                </div>
+
+              </div>
+
+            </section>
+
+          </div>
+
+          <!--
           - clients
         -->
 
-       <!-- <section class="clients">
+          <!-- <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
 
@@ -484,17 +511,10 @@
               </a>
             </li>
           </ul> -->
-          
-          
-          
 
         </section>
 
       </article>
-
-
-
-
 
       <!--
         - #RESUME
@@ -506,16 +526,12 @@
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
-
         <!-- <a href="Shivam_Javiya_resume.pdf" class="download-btn" download> 📎 &nbsp; Download CV</a> -->
-
-
 
         <a href="CV HANICHE ZAHIR.pdf" class="download-btn" download>
           <img src="./assets/images/icon-resume.png" alt="Icon" class="icon">
           <p>Download CV</p>
         </a>
-
 
         <br>
         <br>
@@ -533,7 +549,8 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Master of Science in Information Technology</h4>
+              <h4 class="h4 timeline-item-title">Master of Science in
+                Information Technology</h4>
 
               <span>2014 — 2016</span>
 
@@ -545,7 +562,8 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Bachelor of Computer Applications</h4>
+              <h4 class="h4 timeline-item-title">Bachelor of Computer
+                Applications</h4>
 
               <span>2012 — 2014</span>
 
@@ -557,7 +575,8 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">High school of &nbsp;Gagny </h4>
+              <h4 class="h4 timeline-item-title">High school of &nbsp;Gagny
+              </h4>
 
               <span>2008 - 2012</span>
 
@@ -568,10 +587,10 @@
             </li>
 
           </ol>
-          
+
         </section>
 
-        <section class="timeline"> 
+        <section class="timeline">
 
           <div class="title-wrapper">
             <div class="icon-box">
@@ -585,23 +604,25 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Inetum - Senior Software Developer</h4>
+              <h4 class="h4 timeline-item-title">Inetum - Senior Software
+                Developer</h4>
 
               <span>2020 — Present</span>
 
               <p class="timeline-text">
                 As a Lead Developer at Inetum, I managed Scrum teams
-              and led the development of Liferay-based projects using
-              ReactJS. I oversaw the customization and
-              implementation of portal solutions, ensuring effective
-              team collaboration and high-quality deliverables.
+                and led the development of Liferay-based projects using
+                ReactJS. I oversaw the customization and
+                implementation of portal solutions, ensuring effective
+                team collaboration and high-quality deliverables.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Gfi Informatique - Software Developer</h4>
+              <h4 class="h4 timeline-item-title">Gfi Informatique - Software
+                Developer</h4>
 
               <span>2016 — 2020</span>
 
@@ -617,7 +638,8 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Apprentice Software Developer - SFR Business</h4>
+              <h4 class="h4 timeline-item-title">Apprentice Software Developer -
+                SFR Business</h4>
 
               <span>2015 — 2016</span>
 
@@ -631,7 +653,7 @@
 
             </li>
 
-          </ol> 
+          </ol>
 
         </section>
 
@@ -698,10 +720,6 @@
         </section>
 
       </article>
-
-
-
-
 
       <!--
         - #PORTFOLIO
@@ -771,7 +789,8 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item
+              data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -779,7 +798,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/project-1.jpg" alt="finance"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Finance</h3>
@@ -789,7 +809,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item
+              data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -797,7 +818,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/project-2.png" alt="orizon"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Orizon</h3>
@@ -807,7 +829,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item
+              data-category="web design">
               <a href="#">
 
                 <figure class="project-img">
@@ -815,7 +838,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/project-3.jpg" alt="fundo"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Fundo</h3>
@@ -825,7 +849,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item  active" data-filter-item
+              data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -833,7 +858,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/project-4.png" alt="brawlhalla"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Brawlhalla</h3>
@@ -843,7 +869,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item
+              data-category="web design">
               <a href="#">
 
                 <figure class="project-img">
@@ -851,7 +878,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/project-5.png" alt="dsm."
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">DSM.</h3>
@@ -861,7 +889,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
+            <li class="project-item  active" data-filter-item
+              data-category="web design">
               <a href="#">
 
                 <figure class="project-img">
@@ -869,7 +898,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/project-6.png" alt="metaspark"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">MetaSpark</h3>
@@ -879,7 +909,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item
+              data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -887,7 +918,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="./assets/images/project-7.png" alt="summary"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Summary</h3>
@@ -897,7 +929,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
+            <li class="project-item  active" data-filter-item
+              data-category="applications">
               <a href="#">
 
                 <figure class="project-img">
@@ -905,7 +938,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="./assets/images/project-8.jpg" alt="task manager"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Task Manager</h3>
@@ -915,7 +949,8 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item  active" data-filter-item
+              data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -923,7 +958,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="./assets/images/project-9.png" alt="arrival"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Arrival</h3>
@@ -938,8 +974,6 @@
         </section>
 
       </article>
-
-
 
       <!--
         - #project
@@ -956,26 +990,34 @@
           <ul class="project-posts-list">
 
             <li class="project-post-item">
-              <a href="https://espace-assurance.cardif.fr/web/espace-assurance/" target="_blank">
+              <a href="https://espace-assurance.cardif.fr/web/espace-assurance/"
+                target="_blank">
 
                 <figure class="project-banner-box">
-                  <img src="./assets/images/assurance.PNG" alt="Esapace Assurance - Cardif" loading="lazy">
+                  <img src="./assets/images/assurance.PNG"
+                    alt="Esapace Assurance - Cardif" loading="lazy">
                 </figure>
 
                 <div class="project-content">
 
                   <div class="project-meta">
-                    <p class="project-category">Assurance Site</p>
+                    <p class="project-category">Inetum</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2022-02-23">2021 - 2022</time>
                   </div>
 
-                  <h3 class="h3 project-item-title"> Espace Assurance - BNP Paribas Cardif</h3>
+                  <h3 class="h3 project-item-title"> Espace Assurance - BNP
+                    Paribas Cardif</h3>
 
                   <p class="project-text">
-                    ProjectBNP Paribas Cardif is a global insurance provider, offering a wide range of insurance products to customers worldwide.During my tenure at BNP Paribas Cardif, I played a crucial role in their digital transformation efforts, particularly inmigrating and upgrading their insurance customer portal.
+                    ProjectBNP Paribas Cardif is a global insurance provider,
+                    offering a wide range of insurance products to customers
+                    worldwide.During my tenure at BNP Paribas Cardif, I played a
+                    crucial role in their digital transformation efforts,
+                    particularly inmigrating and upgrading their insurance
+                    customer portal.
                   </p>
 
                 </div>
@@ -984,28 +1026,33 @@
             </li>
 
             <li class="project-post-item">
-              <a href="https://corporatecards.bnpparibas.com/fr/" target="_blank">
+              <a href="https://corporatecards.bnpparibas.com/fr/"
+                target="_blank">
 
                 <figure class="project-banner-box">
-                  <img src="./assets/images/phenix.PNG" alt="Phenix - BDDF" loading="lazy">
+                  <img src="./assets/images/phenix.PNG" alt="Phenix - BDDF"
+                    loading="lazy">
                 </figure>
 
                 <div class="project-content">
 
                   <div class="project-meta">
-                    <p class="project-category">Bank Site</p>
+                    <p class="project-category">Inetum</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2022-02-23">2018 - 2021</time>
                   </div>
 
-                  <h3 class="h3 project-item-title">Phenix - BNP Paribas BDDF</h3>
+                  <h3 class="h3 project-item-title">Phenix - BNP Paribas
+                    BDDF</h3>
 
                   <p class="project-text">
-                    BNP Paribas BDDF (Banque de Détail en France) is a prominent banking division within BNP Paribas, focusing on retail
-banking services. During my assignment with BNP Paribas BDDF, I was instrumental in migrating and enhancing their
-Corporate Card site as part of the Phenix project.</p>
+                    BNP Paribas BDDF (Banque de Détail en France) is a prominent
+                    banking division within BNP Paribas, focusing on retail
+                    banking services. During my assignment with BNP Paribas
+                    BDDF, I was instrumental in migrating and enhancing their
+                    Corporate Card site as part of the Phenix project.</p>
 
                 </div>
 
@@ -1013,27 +1060,71 @@ Corporate Card site as part of the Phenix project.</p>
             </li>
 
             <li class="project-post-item">
-              <a href="https://www.sports.gouv.fr/conseiller-technique-national-ctn-2265" target="_blank">
+              <a href="https://www.o2recrute.fr/" target="_blank">
 
                 <figure class="project-banner-box">
-                  <img src="./assets/images/sport.PNG" alt="Gouvernment - Sport" loading="lazy">
+
+                  <img src="./assets/images/recrute.PNG" alt="O2 - O2 Recrute"
+                    loading="lazy" target="_blank">
                 </figure>
 
                 <div class="project-content">
 
                   <div class="project-meta">
-                    <p class="project-category">Gouvernment of France Site</p>
+                    <p class="project-category">Inetum </p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">2022 - 2024</time>
+                  </div>
+
+                  <h3 class="h3 project-item-title">O2 Recrute - Care
+                    Services</h3>
+
+                  <p class="project-text">
+                    ConsultantO2 is a personal services company that provides
+                    various services (gardening, cleaning, DIY, etc.) to
+                    individual clients.A few years ago, O2 began the
+                    digitalization of its services, which were traditionally
+                    based on a network of agencies.This transformation involved
+                    making all services available through the website O2.fr.
+                    Using Liferay Experience Cloud(PaaS), the platform evolved
+                    into a site factory for the entire O2 service range.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="project-post-item">
+              <a
+                href="https://www.sports.gouv.fr/conseiller-technique-national-ctn-2265"
+                target="_blank">
+
+                <figure class="project-banner-box">
+                  <img src="./assets/images/sport.PNG" alt="Gouvernment - Sport"
+                    loading="lazy">
+                </figure>
+
+                <div class="project-content">
+
+                  <div class="project-meta">
+                    <p class="project-category">Inetum</p>
 
                     <span class="dot"></span>
 
                     <time datetime="2022-02-23">2016 - 2018</time>
                   </div>
 
-                  <h3 class="h3 project-item-title">CTS Web - French Ministry of Sports</h3>
+                  <h3 class="h3 project-item-title">CTS Web - French Ministry of
+                    Sports</h3>
 
                   <p class="project-text">
-                    The French Ministry of Sports oversees sports policies and initiatives across the country.
-                    I contributed to the revamp of the CTS Web site, a platform designed for ministry officials to communicate and manage
+                    The French Ministry of Sports oversees sports policies and
+                    initiatives across the country.
+                    I contributed to the revamp of the CTS Web site, a platform
+                    designed for ministry officials to communicate and manage
                     their activities using a calendar system. </p>
 
                 </div>
@@ -1041,13 +1132,13 @@ Corporate Card site as part of the Phenix project.</p>
               </a>
             </li>
 
-            
-
             <li class="project-post-item">
-              <a href="https://zahirhaniche-dev.github.io/reactjs-job-list/" target="_blank">
+              <a href="https://zahirhaniche-dev.github.io/reactjs-job-list/"
+                target="_blank">
 
                 <figure class="project-banner-box">
-                  <img src="./assets/images/job.PNG" alt="Job Listings with Filtering" loading="lazy">
+                  <img src="./assets/images/job.PNG"
+                    alt="Job Listings with Filtering" loading="lazy">
                 </figure>
 
                 <div class="project-content">
@@ -1060,20 +1151,27 @@ Corporate Card site as part of the Phenix project.</p>
                     <time datetime="2022-02-23">2024</time>
                   </div>
 
-                  <h3 class="h3 project-item-title">Reponsive Job Listings with Filtering</h3>
+                  <h3 class="h3 project-item-title">Reponsive Job Listings with
+                    Filtering</h3>
 
                   <p class="project-text">
-                    In this challenge, you'll be using JavaScript to filter out jobs based on selected categories. We provide a local JSON file to help you practice working with JSON data. </p>
+                    In this challenge, you'll be using JavaScript to filter out
+                    jobs based on selected categories. We provide a local JSON
+                    file to help you practice working with JSON data. </p>
                 </div>
 
               </a>
             </li>
 
             <li class="project-post-item">
-              <a href="https://zahirhaniche-dev.github.io/reactjs-filter-countries/" target="_blank">
+              <a
+                href="https://zahirhaniche-dev.github.io/reactjs-filter-countries/"
+                target="_blank">
 
                 <figure class="project-banner-box">
-                  <img src="./assets/images/countries.PNG" alt="Countries REST API with Color Theme Switcher" loading="lazy">
+                  <img src="./assets/images/countries.PNG"
+                    alt="Countries REST API with Color Theme Switcher"
+                    loading="lazy">
                 </figure>
 
                 <div class="project-content">
@@ -1086,24 +1184,27 @@ Corporate Card site as part of the Phenix project.</p>
                     <time datetime="2022-02-23">2024</time>
                   </div>
 
-                  <h3 class="h3 project-item-title">Countries REST API with Color Theme Switcher</h3>
+                  <h3 class="h3 project-item-title">Countries REST API with
+                    Color Theme Switcher</h3>
 
                   <p class="project-text">
-                    If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API.</p>
+                    If you're wanting to test your JavaScript skills this is the
+                    challenge for you. Use whichever JS framework you prefer and
+                    pull data from the REST Countries API.</p>
 
                 </div>
 
               </a>
             </li>
 
-
-
-
             <li class="project-post-item">
-              <a href="https://zahirhaniche-dev.github.io/reactjs-multistep-form/" target="_blank">
+              <a
+                href="https://zahirhaniche-dev.github.io/reactjs-multistep-form/"
+                target="_blank">
 
                 <figure class="project-banner-box">
-                  <img src="./assets/images/stepform.PNG" alt="Responsive Multi-Step Form" loading="lazy">
+                  <img src="./assets/images/stepform.PNG"
+                    alt="Responsive Multi-Step Form" loading="lazy">
                 </figure>
 
                 <div class="project-content">
@@ -1116,91 +1217,91 @@ Corporate Card site as part of the Phenix project.</p>
                     <time datetime="2022-02-23">2024</time>
                   </div>
 
-                  <h3 class="h3 project-item-title">Responsive Multi-Step Form</h3>
+                  <h3 class="h3 project-item-title">Responsive Multi-Step
+                    Form</h3>
 
                   <p class="project-text">
-                    An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.
-                </div>
+                    An excellent test for your form-building and JS skills, this
+                    project will pose many challenges along the way to
+                    completion.
+                  </div>
 
-              </a>
-            </li>
+                </a>
+              </li>
 
-          </ul>
+            </ul>
 
-        </section>
+          </section>
 
-      </article>
+        </article>
 
-
-
-
-
-      <!--
+        <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+        <article class="contact" data-page="contact">
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9999999999995!2d2.3333333333333335!3d48.86061111111111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b1b1%3A0x2b2b2b2b2b2b2b2b!2s5-7%20Rue%20Touzet%20Gaillard%2C%2093400%20Saint-Ouen%2C%20France!5e0!3m2!1sen!2sfr!4v1712394825936!5m2!1sen!2sfr"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </figure>
-        </section>
-        
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9999999999995!2d2.3333333333333335!3d48.86061111111111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b1b1%3A0x2b2b2b2b2b2b2b2b!2s5-7%20Rue%20Touzet%20Gaillard%2C%2093400%20Saint-Ouen%2C%20France!5e0!3m2!1sen!2sfr!4v1712394825936!5m2!1sen!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </figure>
+          </section>
 
+          <section class="contact-form">
 
-        <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
 
-          <h3 class="h3 form-title">Contact Form</h3>
+            <form action="https://api.web3forms.com/submit" method="POST"
+              class="form" data-form>
 
-          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+              <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input"
+                  placeholder="Full name" required data-form-input>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                <input type="email" name="email" class="form-input"
+                  placeholder="Email address" required data-form-input>
+              </div>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+              <textarea name="message" class="form-input"
+                placeholder="Your Message" required data-form-input></textarea>
+              <input type="hidden" name="access_key"
+                value="e2e13dea-21ba-444e-ab13-1144052169ad">
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-            <input type="hidden" name="access_key" value="e2e13dea-21ba-444e-ab13-1144052169ad">
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+            </form>
 
-          </form>
+          </section>
 
-        </section>
+        </article>
 
-      </article>
+      </div>
 
-    </div>
+    </main>
 
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-</body>
+  </body>
 
 </html>
