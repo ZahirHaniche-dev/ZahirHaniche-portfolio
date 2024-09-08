@@ -27,7 +27,7 @@ This repository contains the source code and assets for my personal profile webs
 
 To view the website locally or contribute to the repository, follow these steps:
 
-1. **Clone the repository**:
+1. **Clone the repository**
    ```bash
    git clone https://github.com/your-username/personal-profile-website.git
    ```
@@ -37,16 +37,16 @@ To view the website locally or contribute to the repository, follow these steps:
    cd personal-profile-website
    ```
 
-3. **Open `index.html` in a web browser**:
+3. **Open `index.html` in a web browser**
    ```bash
    open index.html
    ```
 
-4. **Explore and modify**:
+4. **Explore and modify**
    - Modify HTML, CSS, and JavaScript files as needed.
    - Test changes locally before committing.
 
-5. **Contributing**:
+5. **Contributing**
    - Fork the repository.
    - Create a new branch (`git checkout -b feature/add-new-section`).
    - Commit your changes (`git commit -am 'Add new section'`).
