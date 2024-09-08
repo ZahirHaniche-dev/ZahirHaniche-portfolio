@@ -1,4 +1,4 @@
-# Zahir HANICHE's Portfolio
+# Zahir's Portfolio 
 
 
 ## Welcome! 👋
@@ -32,7 +32,7 @@ To view the website locally or contribute to the repository, follow these steps:
    git clone https://github.com/your-username/personal-profile-website.git
    ```
 
-2. **Navigate to the project directory**:
+2. **Navigate to the project directory**
    ```bash
    cd personal-profile-website
    ```
