@@ -1902,6 +1902,30 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
+   .download-btn {
+    display: flex;
+    width: 15em;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+
+  }
+
+
+  .download-btn:hover {
+    background-color: #fed793;
+    transition: background-color 0.7s ease;
+    color: black;
+
+  }
+  
   .timeline-text { max-width: 700px; }
 
 }
