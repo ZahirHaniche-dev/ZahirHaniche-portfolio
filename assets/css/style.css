@@ -1867,7 +1867,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     text-align: center;
   }
 
-  .info-content .title { margin: auto; font-size: 18px; }
+  .info-content .title { margin: auto; font-size: 14px; }
 
   .info_more-btn { display: none; }
 
