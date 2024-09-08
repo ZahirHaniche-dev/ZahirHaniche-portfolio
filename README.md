@@ -42,11 +42,11 @@ To view the website locally or contribute to the repository, follow these steps:
    open index.html
    ```
 
-4. **Explore and modify**:
+4. **Explore and modify**
    - Modify HTML, CSS, and JavaScript files as needed.
    - Test changes locally before committing.
 
-5. **Contributing**:
+5. **Contributing**
    - Fork the repository.
    - Create a new branch (`git checkout -b feature/add-new-section`).
    - Commit your changes (`git commit -am 'Add new section'`).
