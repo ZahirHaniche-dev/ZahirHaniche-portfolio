@@ -167,6 +167,30 @@ body { background: var(black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
+.download-btn {
+  display: flex;
+  width: 15em;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.7s ease;
+
+}
+
+
+.download-btn:hover {
+  background-color: #fed793;
+  transition: background-color 0.7s ease;
+  color: black;
+
+}
+
 .sidebar,
 article {
   background: var(--eerie-black-2);
@@ -350,7 +374,7 @@ main {
   background: var(--onyx);
   font-size: 16px;
   font-weight: var(--fw-300);
-  width: max-content;
+  /*width: max-content;*/
   padding: 3px 12px;
   border-radius: 8px;
 }
@@ -478,7 +502,7 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: 14px;
   padding: 20px 10px;
   transition: color var(--transition-1);
 }
@@ -1902,29 +1926,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
-   .download-btn {
-    display: flex;
-    width: 15em;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    border: none;
-    border-radius: 50px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.7s ease;
-
-  }
-
-
-  .download-btn:hover {
-    background-color: #fed793;
-    transition: background-color 0.7s ease;
-    color: black;
-
-  }
+   
   
   .timeline-text { max-width: 700px; }
 
