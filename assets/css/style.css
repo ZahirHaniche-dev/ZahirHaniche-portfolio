@@ -167,29 +167,7 @@ body { background: var(black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
-.download-btn {
-  display: flex;
-  width: 15em;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-  border: none;
-  border-radius: 50px;
-  font-size: 15px;
-  cursor: pointer;
-  transition: background-color 0.7s ease;
 
-}
-
-
-.download-btn:hover {
-  background-color: #fed793;
-  transition: background-color 0.7s ease;
-  color: black;
-
-}
 
 .sidebar,
 article {
@@ -557,6 +535,7 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  cursor: pointer;
 }
 
 .service-item::before {
@@ -1038,8 +1017,7 @@ main {
 
 .project-item > a:hover img { transform: scale(1.1); }
 
-.project-title,
-.project-category { margin-left: 10px; }
+.project-title { margin-left: 10px; }
 
 .project-title {
   color: var(--white-2);
@@ -1374,7 +1352,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info-content .name { margin-bottom: 15px; }
 
-  .info-content .title { padding: 5px 18px; }
+  .info-content .title { padding: 12px; }
 
   .info_more-btn {
     top: -30px;
