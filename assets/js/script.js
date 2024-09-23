@@ -157,3 +157,14 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+window.addEventListener('load', function() {
+  const loader = document.getElementById('loader');
+  loader.style.display = 'none'; // Masquer le loader après le chargement
+});
+
+// Afficher le loader au début
+document.addEventListener('DOMContentLoaded', function() {
+  const loader = document.getElementById('loader');
+  loader.style.display = 'flex'; // Afficher le loader pendant le chargement
+});
