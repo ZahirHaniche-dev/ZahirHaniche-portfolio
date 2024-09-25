@@ -523,6 +523,7 @@ main {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  cursor: pointer;
 }
 
 .about-text p { margin-bottom: 15px; }
@@ -801,11 +802,13 @@ main {
   align-items: center;
   gap: 15px;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 
 .timeline-list {
   font-size: var(--fs-6);
   margin-left: 45px;
+  cursor: pointer;
 }
 
 .timeline-item { position: relative; }
@@ -1369,7 +1372,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { width: 120px; }
 
-  .info-content .name { margin-bottom: 15px; }
+  .info-content .name { margin-bottom: 15px; cursor: pointer; }
 
   .info-content .title { padding: 12px; }
 
