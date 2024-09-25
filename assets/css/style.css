@@ -7,10 +7,6 @@
  * copyright 2022 @codewithsadee
  */
 
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -109,6 +105,16 @@
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
+}
+
+.background-all {
+  width: 100%;
+  height: 100%;
+  /* Add your background pattern here */
+  background-color: #020202;
+  background-image: radial-gradient(rgb(30, 30, 31), 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px
 }
 
 /*-----------------------------------*\
