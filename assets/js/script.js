@@ -102,12 +102,10 @@ navigationLinks.forEach((link, index) => {
   });
 });
 
-window.addEventListener('load', () => {
-  const loader = document.getElementById('loader');
-  loader.style.display = 'none'; // Masquer le loader après le chargement
-});
-
 document.addEventListener('DOMContentLoaded', () => {
   const loader = document.getElementById('loader');
   loader.style.display = 'flex'; // Afficher le loader pendant le chargement
+  setTimeout(() => {
+    loader.style.display = 'none'; // Masquer le loader après 1 secondes
+  }, 1000);
 });
