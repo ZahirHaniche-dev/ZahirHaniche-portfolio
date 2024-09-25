@@ -368,7 +368,6 @@ main {
   background: var(--onyx);
   font-size: 16px;
   font-weight: var(--fw-300);
-  /*width: max-content;*/
   padding: 3px 12px;
   border-radius: 8px;
 }
@@ -1983,3 +1982,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   .showcase-item {
       width: 100%; /* Display 1 item per row */
   }
+  
+  .info-content .title {
+      font-size: 12px;
+  }
+
+  .navbar-link{
+    padding: 20px 5px;
+  }
+}
