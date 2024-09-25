@@ -653,7 +653,7 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.about .article-title { margin-bottom: 15px; font-size: 24px;}
 
 .about-text {
   color: var(--light-gray);
@@ -928,7 +928,7 @@ main {
   #RESUME
 \*-----------------------------------*/
 
-.article-title { margin-bottom: 30px; }
+.article-title { margin-bottom: 30px; font-size: 24px;}
 
 
 /**
@@ -1770,7 +1770,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    * PORTFOLIO
    */
 
-  .article-title { padding-bottom: 20px; }
+  .article-title { padding-bottom: 20px;  }
 
   .filter-select-box { display: none; }
 
@@ -1992,7 +1992,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   main {
-    max-width: 1350px;
+    max-width: 1250px;
     margin-inline: auto;
     display: flex;
     justify-content: center;
