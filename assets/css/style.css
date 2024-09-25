@@ -1529,7 +1529,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .info_more-btn ion-icon { display: none; }
 
-  .separator { margin: 32px 0; }
+  .separator { margin: 22px 0; }
 
   .contacts-list { gap: 20px; }
 
@@ -2018,7 +2018,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
-    padding-top: 25px;
+    padding: 25px 25px 0 25px;
     z-index: 1;
   }
 
