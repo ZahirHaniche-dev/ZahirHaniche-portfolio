@@ -6,6 +6,8 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+![image](https://github.com/user-attachments/assets/2bbbf58a-8c16-40e0-a080-d376a95c13dd)
+
 ## Overview
 
 This repository contains the source code and assets for my personal profile website. The website is designed to showcase my skills, projects, and experience in a visually appealing and user-friendly manner.
